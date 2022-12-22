@@ -1,0 +1,89 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <DTSERVER>20221222173656[0:UTC]
+            <LANGUAGE>ENG
+            <FI>
+                <ORG>Bank of America
+                <FID>5959
+            </FI>
+            <INTU.BID>6526
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <CREDITCARDMSGSRSV1>
+        <CCSTMTTRNRS>
+            <TRNUID>20221222173656[0:UTC]
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <CCSTMTRS>
+                <CURDEF>USD
+                <CCACCTFROM>
+                    <ACCTID>4400669368951257
+                </CCACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20221221170000[0:UTC]
+                    <DTEND>20221221170000[0:UTC]
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20221221170000[0:UTC]
+                        <TRNAMT>-1327.32
+                        <FITID>202212211
+                        <CORRECTFITID>202212211
+                        <CORRECTACTION>REPLACE
+                        <NAME>eBay O*11-09491-92889 408-376615
+                        <MEMO>eBay O*11-09491-92889 408-376615
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20221221170000[0:UTC]
+                        <TRNAMT>-67.94
+                        <FITID>202212212
+                        <CORRECTFITID>202212212
+                        <CORRECTACTION>REPLACE
+                        <NAME>eBay O*14-09490-83578 408-376615
+                        <MEMO>eBay O*14-09490-83578 408-376615
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20221221170000[0:UTC]
+                        <TRNAMT>-57.14
+                        <FITID>202212213
+                        <CORRECTFITID>202212213
+                        <CORRECTACTION>REPLACE
+                        <NAME>LANCASTER WATER &amp; SEWER DLANCAST
+                        <MEMO>LANCASTER WATER &amp; SEWER DLANCAST
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20221221170000[0:UTC]
+                        <TRNAMT>2500.00
+                        <FITID>202212214
+                        <CORRECTFITID>202212214
+                        <CORRECTACTION>REPLACE
+                        <NAME>Online payment from CHK 3208
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>332.88
+                    <DTASOF>20221222173655[0:UTC]
+                </LEDGERBAL>
+            </CCSTMTRS>
+        </CCSTMTTRNRS>
+    </CREDITCARDMSGSRSV1>
+</OFX>
